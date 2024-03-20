@@ -6,25 +6,26 @@ box-sizing: border-box;
 
 header{
     width: 100%;
+    padding: 10px; 
     text-align: center;
     justify-content: space-between;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 10px; 
+    
 }
 .header_left{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 .header_left img{
     width: 100px;
+    padding-bottom: 12px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-bottom: 12px;
 }
 .header_right{
     display: flex;
@@ -35,8 +36,8 @@ header{
 .icon{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
     line-height: 30px;
+    font-size: 20px;
 }
 
 
@@ -44,24 +45,30 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    font-size: 11px;
-    padding-left: 20px;
-    padding-top: 20px;
+    font-size: 5x;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 section{
     padding-top: 15px;
+    margin-top: 10px;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
-   align-items: start;
-   justify-content: start;
+    /* align-items: center;
+    justify-content: start; */
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+   max-width: 1400px;
 }
 
-.col-lg-3 col-md-4 col-6{
-    width: 20%;
+.card{
+    width: 249px;
 }
+
 .cardd__img{
     border: 1px solid gray;
     border-radius: 10px;
@@ -73,12 +80,14 @@ section{
 }
 .image .group{
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: 0px;
     align-items: center;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding: 0 15px;
+    
 }
 .card__content{
     margin-top: 100px;
